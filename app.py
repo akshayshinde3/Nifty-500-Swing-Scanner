@@ -244,6 +244,11 @@ def require_login():
             return redirect(url_for("login"))
 
 
+@app.route("/health")
+def health():
+    return jsonify({"status": "ok"}), 200
+
+
 @app.route("/login", methods=["GET", "POST"])
 def login():
     if not SITE_PASSWORD:
