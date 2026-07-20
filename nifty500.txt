@@ -1,0 +1,23 @@
+# FALLBACK ONLY — the app tries to auto-download the live Nifty 500 list from
+# NSE first (https://archives.nseindia.com/content/indices/ind_nifty500list.csv).
+# If that ever fails (NSE blocks bots, changes the URL, etc.), it uses this file.
+RELIANCE
+TCS
+INFY
+HDFCBANK
+ICICIBANK
+SBIN
+LT
+ITC
+AXISBANK
+KOTAKBANK
+BAJFINANCE
+MARUTI
+TATAMOTORS
+SUNPHARMA
+WIPRO
+HCLTECH
+ULTRACEMCO
+TITAN
+ASIANPAINT
+BAJAJFINSV
